@@ -398,92 +398,79 @@ body{
 
   <hr class="divider">
 
-  <!-- 04 PRÓXIMOS PASOS -->
+  <!-- 04 ROADMAP -->
   <div class="sec">
-    <div class="sec-label"><span class="d"></span>04 &nbsp;Próximos pasos — decisiones inmediatas</div>
-    <div class="sec-body">Los puntos que José señaló en sus comentarios. Necesitamos alinearnos en prioridad y alcance:</div>
-    <div class="ns-list">
-      <div class="ns-item">
-        <div class="ns-letter">A</div>
-        <div>
-          <div class="ns-title">Expansión a otras regiones de SKG</div>
-          <div class="ns-desc">Desplegar el mismo sistema en otras empresas y regiones del grupo. Los costes estimados están disponibles.</div>
-          <div class="ns-q">¿Damos luz verde? ¿Con qué prioridad y en qué plazo?</div>
-        </div>
-      </div>
-      <div class="ns-item">
-        <div class="ns-letter">B</div>
-        <div>
-          <div class="ns-title">Activación del teléfono (llamadas inbound)</div>
-          <div class="ns-desc">Que el empleado reciba una llamada en lugar de iniciarla. Evaluando SpotFónico vs. Twilio (diferencia principal: coste e integración).</div>
-          <div class="ns-q">¿Lo priorizamos sobre otras funcionalidades?</div>
-        </div>
-      </div>
-      <div class="ns-item">
-        <div class="ns-letter">C</div>
-        <div>
-          <div class="ns-title">Integración con resumen diario de WhatsApp</div>
-          <div class="ns-desc">Prototipo funcional ya conectado al grupo de Woztell. Pendiente de validar con Jorge (reincorporándose tras vacaciones).</div>
-          <div class="ns-q">¿Lo activamos en la próxima iteración?</div>
-        </div>
-      </div>
-      <div class="ns-item">
-        <div class="ns-letter">D</div>
-        <div>
-          <div class="ns-title">Visibilidad por jerarquía y departamento</div>
-          <div class="ns-desc">Hoy cualquier manager ve datos de toda la organización. Definir si queremos filtrar por área, empresa o rol jerárquico.</div>
-          <div class="ns-q">Decisión de negocio antes que técnica — ¿cómo lo queremos?</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <hr class="divider">
-
-  <!-- 05 POTENCIALES EVOLUTIVOS -->
-  <div class="sec">
-    <div class="sec-label"><span class="d"></span>05 &nbsp;Potenciales evolutivos</div>
-    <div class="sec-body">Backlog abierto para priorizar en futuras iteraciones:</div>
+    <div class="sec-label"><span class="d"></span>04 &nbsp;Roadmap</div>
+    <div class="sec-body">Todos los evolutivos identificados. Los marcados con <span style="display:inline-block;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:1px 6px;border-radius:4px;color:#92400E;background:#FEF3C7;border:1px solid #FDE68A;vertical-align:middle">José</span> son comentarios directos suyos al roadmap — requieren decisión hoy.</div>
     <div class="tbl-wrap" style="margin-top:14px">
       <table class="tbl">
         <thead>
           <tr>
             <th>Evolutivo</th>
-            <th>Contexto</th>
+            <th>Descripción</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td>Expansión a otras regiones</td>
+            <td class="g">Desplegar en otras empresas y regiones de SKG. Costes disponibles.</td>
+            <td><span class="badge b-warn">José</span></td>
+          </tr>
+          <tr>
+            <td>Teléfono inbound (Spotfone)</td>
+            <td class="g">El empleado recibe la llamada. Spotfone vs. Twilio — diferencia: coste e integración.</td>
+            <td><span class="badge b-warn">José</span></td>
+          </tr>
+          <tr>
+            <td>Resumen diario de WhatsApp</td>
+            <td class="g">Prototipo listo, conectado a Woztell. Pendiente validar con Jorge.</td>
+            <td><span class="badge b-warn">José</span></td>
+          </tr>
+          <tr>
+            <td>Visibilidad por jerarquía / área</td>
+            <td class="g">Filtrar datos por empresa, departamento o rol. Decisión de negocio primero.</td>
+            <td><span class="badge b-warn">José</span></td>
+          </tr>
+          <tr>
             <td>Llamadas outbound (Cron)</td>
-            <td class="g">El sistema llama al empleado según programación, sin que éste inicie</td>
+            <td class="g">El sistema llama al empleado según programación, sin que éste inicie.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Más idiomas (cantonés, mandarín…)</td>
-            <td class="g">Expansión a regiones con otros idiomas — requiere cambios en el stack</td>
+            <td class="g">Expansión a regiones con otros idiomas — requiere cambios en el stack.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Multi-idioma en el mismo agente</td>
-            <td class="g">Un agente que opere en más de un idioma simultáneamente</td>
+            <td class="g">Un solo agente que opere en más de un idioma simultáneamente.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Integración con Zoho CRM</td>
-            <td class="g">Extraer actividad y resúmenes que el empleado ha registrado en CRM</td>
+            <td class="g">Extraer actividad y resúmenes registrados por el empleado en CRM.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Integración con Zoho People</td>
-            <td class="g">Saber quién está de vacaciones y configurar jerarquías de reporte</td>
+            <td class="g">Saber quién está de vacaciones y configurar jerarquías de reporte.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Integración con Coexistencia</td>
-            <td class="g">Negociador de calendarios, generador de resúmenes, WhatsApp como canal</td>
+            <td class="g">Negociador de calendarios, generador de resúmenes, WhatsApp como canal.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Integración con resúmenes de llamadas</td>
-            <td class="g">Incorporar transcripciones o resúmenes de llamadas al check-in</td>
+            <td class="g">Incorporar transcripciones o resúmenes de llamadas al check-in.</td>
+            <td></td>
           </tr>
           <tr>
             <td>Preguntas complejas y relacionales</td>
             <td class="g">Comparar rendimiento entre semanas, correlacionar actividad de equipo, etc.</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -492,12 +479,12 @@ body{
 
   <hr class="divider">
 
-  <!-- 06 SALIR CON -->
+  <!-- 05 SALIR CON -->
   <div class="sec">
-    <div class="sec-label"><span class="d"></span>06 &nbsp;Salir con</div>
+    <div class="sec-label"><span class="d"></span>05 &nbsp;Salir con</div>
     <div class="out-list">
       <div class="out-item"><span class="out-n">1</span>Decisión sobre expansión a otras regiones — ¿cuándo y con qué alcance?</div>
-      <div class="out-item"><span class="out-n">2</span>Orden de prioridad de los evolutivos A, B, C, D</div>
+      <div class="out-item"><span class="out-n">2</span>Prioridad de los 4 evolutivos marcados por José</div>
       <div class="out-item"><span class="out-n">3</span>¿Hay otros stakeholders a incorporar en el próximo ciclo?</div>
     </div>
   </div>
