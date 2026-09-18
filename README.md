@@ -23,6 +23,8 @@ Cada nuevo reporte = carpeta nueva (`v2/`, `v3/`, …) + entrada en `her/index.h
 
 Los reportes incluyen `web-review-mode.js`. Activar con `⌥ + C` o el botón `✍️ Comentar`. Los comentarios se sincronizan con Google Sheets vía webhook configurado en cada versión.
 
-## Acceso
+## URL
+
+**https://gabriel-almawolf.github.io/reporting/**
 
 Páginas con `noindex` + `robots.txt` bloqueando indexación. Acceso por URL directa.
